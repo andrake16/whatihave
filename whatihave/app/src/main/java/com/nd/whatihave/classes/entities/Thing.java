@@ -24,6 +24,9 @@ public class Thing {
     @DatabaseField(dataType = DataType.STRING)
     private String categoryId;
 
+    @DatabaseField(dataType = DataType.INTEGER)
+    private Integer price;
+
     public Thing() {
     }
 
@@ -51,7 +54,9 @@ public class Thing {
         this.categoryId = categoryId;
     }
 
-
+    public Integer getPrice() {
+        return price;
+    }
 
 
 }
