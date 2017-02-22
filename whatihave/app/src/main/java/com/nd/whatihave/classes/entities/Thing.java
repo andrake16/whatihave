@@ -30,6 +30,13 @@ public class Thing {
     public Thing() {
     }
 
+    public Thing(String id, String thingName, String categoryId, Integer price) {
+        this.id = id;
+        this.thingName = thingName;
+        this.categoryId = categoryId;
+        this.price = price;
+    }
+
     public String getId() {
         return id;
     }

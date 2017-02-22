@@ -8,6 +8,6 @@ public class Director {
 
     public void constructKit() {
         KitBuilder kitBuilder = new NormalSkinCareKitBuilder();
-        kitBuilder.buildMorningThing().buildDayThing().
+        //kitBuilder.buildMorningThing().buildDayThing().
     }
 }

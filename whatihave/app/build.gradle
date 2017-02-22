@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
+    compileSdkVersion 16
     buildToolsVersion "24.0.0"
     defaultConfig {
         applicationId "com.nd.whatihave"
@@ -27,4 +27,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
     testCompile 'junit:junit:4.12'
     compile 'com.j256.ormlite:ormlite-android:5.0'
+    compile 'com.j256.ormlite:ormlite-jdbc:5.0'
 }
