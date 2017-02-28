@@ -1,4 +1,6 @@
-package com.nd.whatihave.classes.entities;
+package com.nd.whatihave.data.entities;
+
+import android.provider.BaseColumns;
 
 import com.j256.ormlite.field.DataType;
 import com.j256.ormlite.field.DatabaseField;
@@ -13,6 +15,12 @@ public class Thing {
 
 
     public static final String TABLE_NAME = "Things";
+
+    public static final String COLUMN_ID = BaseColumns._ID;
+    public static final String COLUMN_THING_NAME = "thingName";
+    public static final String COLUMN_CATEGORY_ID = "categoryId";
+    public static final String COLUMN_PRICE = "price";
+
 
 
     @DatabaseField(id = true, dataType = DataType.STRING)

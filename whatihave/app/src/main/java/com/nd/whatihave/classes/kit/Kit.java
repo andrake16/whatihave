@@ -1,6 +1,6 @@
-package com.nd.whatihave.kit;
+package com.nd.whatihave.classes.kit;
 
-import com.nd.whatihave.classes.entities.Thing;
+import com.nd.whatihave.data.entities.Thing;
 
 /**
  * Created by ND on 2/14/2017.

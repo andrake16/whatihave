@@ -1,4 +1,4 @@
-package com.nd.whatihave.kit;
+package com.nd.whatihave.classes.kit;
 
 /**
  * Created by ND on 2/14/2017.
