@@ -24,10 +24,10 @@ public class DbHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
 
         String SQL_CREATE_THING_TABLE = "CREATE TABLE " + Thing.TABLE_NAME + " ("
-                                        + Thing.COLUMN_ID + "INTEGER AUTOINCREMENT PRIMARY KEY,"
+                                        + Thing.COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
                                         + Thing.COLUMN_THING_NAME + " STRING NOT NULL,"
-                                        + Thing.COLUMN_CATEGORY_ID + "STRING NOT NULL,"
-                                        + Thing.COLUMN_PRICE + "INTEGER NOT NULL"
+                                        + Thing.COLUMN_CATEGORY_ID + " STRING NOT NULL,"
+                                        + Thing.COLUMN_PRICE + " INTEGER NOT NULL"
                                         +" );";
 
         String SQL_CREATE_CATEGORY_TABLE = "CREATE TABLE " + Category.TABLE_NAME + " ( "
