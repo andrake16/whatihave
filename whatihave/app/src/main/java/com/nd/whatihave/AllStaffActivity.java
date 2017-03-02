@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.j256.ormlite.dao.Dao;
 import com.nd.whatihave.data.db.DbHelper;
 import com.nd.whatihave.data.entities.Thing;
 
@@ -78,4 +79,6 @@ public class AllStaffActivity extends AppCompatActivity {
 
         cursor.close();
     }
+
+
 }
